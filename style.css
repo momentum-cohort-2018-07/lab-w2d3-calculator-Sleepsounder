@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 50%;
+}
+
+.calculator {
+  display: flex;
+  flex-wrap:wrap; 
+  /* flex-direction: column; */
+  background: green;
+
+}
+
+.button {
+  background: blue;
+  color: white;
+  width: 33.33%;
+  padding: 2rem;
+  
+
+}
+
+.screen {
+  width: 100%;
+  background: rgb(255, 181, 181);
+  padding:2rem;
+}
