@@ -1,11 +1,13 @@
+var screenWrite = (document.querySelector('.empty_div'))
+
 var one = (document.querySelector(".one"))
 one.addEventListener('click', function () {
-    console.log(1)
+    screenWrite.innerHTML = 1
 })
 
 var two = (document.querySelector(".two"))
 two.addEventListener('click', function () {
-    console.log(2)
+    screenWrite.innerHTML = 2
 })
 
 var three = (document.querySelector(".three"))
@@ -84,8 +86,8 @@ clear.addEventListener('click', function () {
     (clear')
 })
 
-var screen = (document.querySelector('.screen'))
-screen.innerHTML = '<div>'
+// var screen = (document.querySelector('.screen'))
+// screen.innerHTML = '<div>'
 
 
 

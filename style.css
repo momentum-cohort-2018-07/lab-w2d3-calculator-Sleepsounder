@@ -4,21 +4,29 @@
 
 body {
   width: 50%;
+  background: rgb(23, 0, 0);
+
 }
+
+
 
 .calculator {
   display: flex;
   flex-wrap:wrap; 
   /* flex-direction: column; */
-  background: green;
+  background: #0ff;
+  border-radius: 10px;
 
 }
 
 .button {
   background: blue;
   color: white;
+  font-size: 2rem;
   width: 33.33%;
   padding: 2rem;
+  border: black solid 2px;
+  
   
 
 }
@@ -27,4 +35,12 @@ body {
   width: 100%;
   background: rgb(255, 181, 181);
   padding:2rem;
+  border-radius: 10px 10px 0 0;
+  border: black solid 2px;
+  font-size: 2rem;
+
+}
+
+.decimal {
+  border-radius: 0 0 0 10px;
 }
