@@ -33,11 +33,12 @@ body {
 
 .screen {
   width: 100%;
-  background: rgb(255, 181, 181);
+  background: rgb(32, 3, 34);
   padding:2rem;
   border-radius: 10px 10px 0 0;
   border: black solid 2px;
   font-size: 2rem;
+  color: white;
 
 }
 
